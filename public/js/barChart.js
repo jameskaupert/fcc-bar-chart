@@ -13,7 +13,7 @@ req.onload = function() {
   const yMin = d3.min(dataset, d => d[1]);
   const yMax = d3.max(dataset, d => d[1]);
 
-  console.log('yMin', yMin, 'yMax', yMax)
+  console.log("yMin", yMin, "yMax", yMax);
 
   const w = 963;
   const h = 500;
@@ -43,5 +43,7 @@ req.onload = function() {
     .attr("y", (d, i) => yScale(d[1]))
     .attr("width", 2.5)
     .attr("height", (d, i) => h - yScale(d[1]))
-    .attr("class");
+    .attr("class", "bar")
+    .append("title")
+    .text(d => d[1]);
 };

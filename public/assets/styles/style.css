@@ -10,3 +10,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.bar {
+    fill: blue;
+}
+
+.bar:hover {
+    fill: red;
+}
