@@ -13,6 +13,7 @@
 9. Each bar element's height should accurately represent the data's corresponding GDP
 10. The data-date attribute and its corresponding bar element should align with the corresponding value on the x-axis.
 11. The data-gdp attribute and its corresponding bar element should align with the corresponding value on the y-axis.
+
 ### TooltipTests
 1. I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area
 2. My tooltip should have a "data-date" property that corresponds to the "data-date" of the active area.
