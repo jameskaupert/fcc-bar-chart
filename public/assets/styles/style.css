@@ -1,6 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #cdcdcd;
+    font-family: 'Neuton', sans-serif;
+    background: #c8e6c9;
 }
 
 .container {
@@ -11,10 +11,26 @@ body {
     align-items: center;
 }
 
+svg {
+  background-color: #fbfffc;
+}
+
 .bar {
-    fill: blue;
+    fill: #d7ccc8;
 }
 
 .bar:hover {
-    fill: red;
+    fill: #a69b97;
+}
+
+.tooltip {
+  background-color: #97b498;
+  border-radius: 5%;
+  color: #fff
+}
+
+.tooltipWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem 1rem;
 }
